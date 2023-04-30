@@ -97,6 +97,10 @@ h1 {
   border-radius: 12px;
   background-color: rgba(255,255,255, 0.2);
 }
+.location {
+  display: flex;
+  align-items: center;
+}
 .temp h1 {
   text-align: center;
 }
@@ -120,8 +124,33 @@ h1 {
   height: 30px;
   background: url('./assets/images/wind.png') no-repeat center center/cover;
 }
+/* img-location */
+.img-sky-clear {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+  background: url('./assets/images/clear.png') no-repeat center center/cover;
+}
+.img-location-rain {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+  background: url('./assets/images/rain.png') no-repeat center center/cover;
+}
+.img-location-drizzle {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+  background: url('./assets/images/drizzle.png') no-repeat center center/cover;
+}
 .bold {
   font-weight: 700;
+}
+.img-overcast--cloud {
+  background: url('./assets/images/clouds.png') no-repeat center center/cover;
+}
+.img-overcast--cloud {
+  background: url('./assets/images/mist.png') no-repeat center center/cover;
 }
 @media (max-width: 768px) {
   .app .bottom {
